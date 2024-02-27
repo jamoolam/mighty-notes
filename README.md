@@ -1,6 +1,6 @@
 # Introduction
 
-A Simple ToDo App is built using the MVC Architecture, we have also implemented "authorization" so folx can sign up, customize & personalize the app 
+Users can login to their profiles and find their list of notes, or things they have to do. They can add, remove, or mark tasks as complete, and can edit the notes specific to their profiles. utilizes an MVC structure.
 
 ---
 
@@ -10,13 +10,7 @@ A Simple ToDo App is built using the MVC Architecture, we have also implemented 
 
 # Objectives
 
-- It's a beginner level app created to understand how MVC concept and logins are added
-
----
-
-# Who is this for? 
-
-- It's for beginners & intermediates with little more experience, to help understand the various aspects of building a node app with some complex features
+- It's a beginner level app created to help me better understand how MVC concept and logins are added and used in the industry
 
 ---
 
@@ -32,11 +26,17 @@ bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mon
 
 ---
 
-# Things to add
+# Things to add and Optimizations
 
 - Create a `.env` file and add the following as `key: value` 
   - PORT: 2121 (can be any port example: 3000) 
-  - DB_STRING: `your database URI` 
+  - DB_STRING: `your database URI`
+ 
+- I would like to add much more to the application in the future, including but not limited to:
+  - An ability for users to edit their inouts after they are submitted
+  - Getting images to load properly
+  - Beautification of the interface, but unfortunately my design skills leave much to be desired!
+ 
  ---
  
  Have fun testing and improving it! 😎
